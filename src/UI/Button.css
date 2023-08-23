@@ -1,0 +1,16 @@
+.btn-white{
+    background-color: var(--white-color);
+    color: var(--secBlue-color);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+    border-radius: 0;
+    padding: 1rem 4rem;
+}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active {
+  background-color: var(--white-color) !important;
+  color: var(--secBlue-color) !important;
+}

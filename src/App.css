@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+:root{
+  --main-font: 'Lexend', sans-serif;
+  --babyBlue-color: #69DEEF;
+  --primaryBlue-color: #2C60F2;
+  --secBlue-color: #102EA8;
+  --darkGreen-color: #3F484A;
+  --lightGrey-color: #E5E5E5;
+  --lightBlue-color: #F4F7FE;
+  --darkBlue-color: #001550;
+  --white-color: #fff;
+  --black-color: #000;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  font-family: var(--main-font);
+  padding: 0;
+  margin: 0;
+}
+/* gitters */
+.py_5{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--lightBlue-color); 
+  border-radius: 0px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--secBlue-color); 
+  border-radius: 0px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secBlue-color); 
+}
+/* buttons */
+.btn:hover{
+  transform: scale(.97);
+}
+.navbar-toggler{
+  border: none;
+}
+/* slick */
+.slick-prev, .slick-next {
+  background: black;
+}
+.slick-slide > div{
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+.slick-slide > div > div{
+  display: flex !important;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

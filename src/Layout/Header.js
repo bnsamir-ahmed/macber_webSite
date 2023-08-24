@@ -103,7 +103,7 @@ const Header = ()=>{
                         borderBottom: isActive ? `2px solid ${isStrickyFixed ? '#2C60F2' : '#69DEEF'}` : 'none',
                         fontWeight: isActive ? 800 : 400
                     })} 
-                    to={'/'} end>Home</NavLink>
+                    to={'/'} end><span>Home</span></NavLink>
                 </li>
                 <li className="nav-item px-3">
                     <NavLink className={`nav-link px-0 ${classes.nav_link}`} 
@@ -112,7 +112,7 @@ const Header = ()=>{
                         borderBottom: isActive ? `2px solid ${isStrickyFixed ? '#2C60F2' : '#69DEEF'}` : 'none',
                         fontWeight: isActive ? 800 : 400
                     })} 
-                    to={'/about'}>About</NavLink>
+                    to={'/about'}><span>About</span></NavLink>
                 </li>
                 <li className="nav-item px-3">
                     <NavLink className={`nav-link px-0 ${classes.nav_link}`}
@@ -121,7 +121,7 @@ const Header = ()=>{
                         borderBottom: isActive ? `2px solid ${isStrickyFixed ? '#2C60F2' : '#69DEEF'}` : 'none',
                         fontWeight: isActive ? 800 : 400
                     })}
-                    to={'/services'}>Services</NavLink>
+                    to={'/services'}><span>Services</span></NavLink>
                 </li>
                 <li className="nav-item px-5">
                     <NavLink className="navbar-brand d-block-md" to={'/'}>
@@ -135,7 +135,7 @@ const Header = ()=>{
                         borderBottom: isActive ? `2px solid ${isStrickyFixed ? '#2C60F2' : '#69DEEF'}` : 'none',
                         fontWeight: isActive ? 800 : 400
                     })}
-                    to={'/our-work'}>Our work</NavLink>
+                    to={'/our-work'}><span>Our work</span></NavLink>
                 </li>
                 <li className="nav-item px-3">
                     <NavLink className={`nav-link px-0 ${classes.nav_link}`} 
@@ -144,7 +144,7 @@ const Header = ()=>{
                         borderBottom: isActive ? `2px solid ${isStrickyFixed ? '#2C60F2' : '#69DEEF'}` : 'none',
                         fontWeight: isActive ? 800 : 400
                     })}
-                    to={'/contact-us'}>Contact us</NavLink>
+                    to={'/contact-us'}><span>Contact us</span></NavLink>
                 </li>
                 <li className="nav-item px-3">
                     <NavLink className={`nav-link px-0 ${classes.nav_link}`} 
@@ -153,7 +153,7 @@ const Header = ()=>{
                         borderBottom: isActive ? `2px solid ${isStrickyFixed ? '#2C60F2' : '#69DEEF'}` : 'none',
                         fontWeight: isActive ? 800 : 400
                     })}
-                    to={'/careers'}>Careers</NavLink>
+                    to={'/careers'}><span>Careers</span></NavLink>
                 </li>
             </ul>
         </div>

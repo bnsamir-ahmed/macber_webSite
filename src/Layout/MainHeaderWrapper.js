@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import classes from './MainHeaderWrapper.module.css';
 import Button from '../UI/Button';
-import '../UI/Button.css';
 import wow from 'wowjs';
 
 const MainHeaderWrapper = ()=>{

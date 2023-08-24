@@ -1,0 +1,58 @@
+.title-blue{
+    color: var(--secBlue-color);
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+.title-black{
+    color: var(--black-color);
+    font-size: 3.0625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.25rem;
+}
+.title-dark{
+    color: var(--darkBlue-color);
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem;
+}
+.title-white{
+    color: var(--lightWhite-color);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+.desc-blue{
+    color: var(--primaryBlue-color);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.25rem;
+}
+.desc-black{
+    color: var(--darkGreen-color);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.footer-desc{
+    color: var(--white-color);
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.0145rem;
+    opacity: 0.5;
+}
+.desc-white{
+    color: var(--lightWhite-color);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}

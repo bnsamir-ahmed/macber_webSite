@@ -1,6 +1,4 @@
-.btn-white{
-    background-color: var(--white-color);
-    color: var(--secBlue-color);
+.btn{
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
@@ -8,9 +6,43 @@
     border-radius: 0;
     padding: 1rem 4rem;
 }
+.btn-white{
+    background-color: var(--white-color);
+    color: var(--secBlue-color);
+}
 .btn-white:hover,
 .btn-white:focus,
 .btn-white:active {
-  background-color: var(--white-color) !important;
-  color: var(--secBlue-color) !important;
+    background-color: var(--white-color);
+    color: var(--secBlue-color);
+}
+.btn-blue{
+    background-color: var(--primaryBlue-color);
+    color: var(--white-color);
+}
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
+    background-color: var(--primaryBlue-color);
+    color: var(--white-color);
+}
+.btn-outline-blue{
+    border: 2px solid var(--secBlue-color);
+    color: var(--secBlue-color);
+}
+.btn-outline-blue:hover,
+.btn-outline-blue:focus,
+.btn-outline-blue:active {
+    border: 2px solid var(--secBlue-color);
+    color: var(--secBlue-color);
+}
+.btn-outline-white{
+    border: 2px solid var(--lightWhite-color);
+    color: var(--lightWhite-color);
+}
+.btn-outline-white:hover,
+.btn-outline-white:focus,
+.btn-outline-white:active{
+    border: 2px solid var(--lightWhite-color);
+    color: var(--lightWhite-color);
 }

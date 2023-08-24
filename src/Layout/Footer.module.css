@@ -1,3 +1,27 @@
 footer{
     background-color: var(--black-color);
 }
+.nav_footer{
+    color: var(--white-color);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: all ease .5s;
+}
+.nav_footer:hover{
+    color: var(--white-color);
+    font-weight: 500;
+}
+.social_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social_links a{
+    transition: all ease .5s;
+}
+.social_links a:hover{
+    transform: scale(1.1);
+}

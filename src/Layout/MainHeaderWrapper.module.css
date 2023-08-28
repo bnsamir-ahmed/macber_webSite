@@ -1,6 +1,6 @@
 .header_bg{
-    background-image: linear-gradient(180deg, rgba(44, 96, 242, 0.50) 0%, rgba(19, 21, 24, 0.60) 47.89%, rgba(44, 96, 242, 0.40) 100%),
-    url('../assets/mainHeaderBackg.svg');
+    /* background-image: linear-gradient(180deg, rgba(44, 96, 242, 0.50) 0%, rgba(19, 21, 24, 0.60) 100%),
+    url('../assets/mainHeaderBackg.svg'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

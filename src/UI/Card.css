@@ -1,22 +1,41 @@
 .card-service{
-        background-color: #f3f3ee87;
-        padding: 55px 40px;
-        border-radius: 20px;
-}
-
-.card-title{
-color: var(--primaryBlue-color);
-font-weight: 600;
+     background-color: var(--lightGrey3-color);
+     padding: 55px 40px;
+     border-radius: 20px;
 }
 
 .card-desc{
-    color: #9aa3a5;
+    color: var(--lightGrey4-color);
 }
 
 .btn-card{
     background-color: #f0f8ff00;
+    font-weight: 700;
 }
 
 .pad-card{
-        padding: 70px 40px !important;
+     padding: 75px 40px !important;
+}
+
+@media screen and (max-width:767px) {
+.pad-card {
+        padding: 20px 20px !important;
+        margin-bottom: 30px;
+}    
+.card-service{
+    padding: 20px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .pad-card {
+            padding: 40px 20px !important;
+        }
+        .card-service{
+            padding: 20px;
+        }
+        .service-title{
+            font-size: 20px;
+        }
+    
 }

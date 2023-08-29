@@ -12,6 +12,8 @@
   --white-color: #fff;
   --black-color: #000;
   --lightGrey2-color: #BFC8CA;
+  --lightGrey3-color:#f3f3ee87;
+  --lightGrey4-color:#9aa3a5;
 
 }
 body{
@@ -102,4 +104,10 @@ body{
 .breadcrumb-item.active {
   color: var(--white-color);
   opacity: .8;
+}
+
+.service-title {
+  color: var(--primaryBlue-color);
+  font-weight: 600;
+  font-size: 24px;
 }

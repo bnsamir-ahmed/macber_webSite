@@ -57,5 +57,9 @@
     line-height: 1.75rem;
 }
 .title-blue-bold{
-    
+    color: var(--secBlue-color);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.25rem;
 }

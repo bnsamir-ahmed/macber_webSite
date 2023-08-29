@@ -1,0 +1,22 @@
+.card-service{
+        background-color: #f3f3ee87;
+        padding: 55px 40px;
+        border-radius: 20px;
+}
+
+.card-title{
+color: var(--primaryBlue-color);
+font-weight: 600;
+}
+
+.card-desc{
+    color: #9aa3a5;
+}
+
+.btn-card{
+    background-color: #f0f8ff00;
+}
+
+.pad-card{
+        padding: 70px 40px !important;
+}

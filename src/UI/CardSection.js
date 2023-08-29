@@ -24,15 +24,15 @@ const CardSection = ()=>{
                     <Paragraph className="title-blue-bold" >
                         Strategy
                     </Paragraph>
-                    <div className='row py-4'>
+                    <div className='row py-4 m-auto'>
                         <div className='col-xl-4 col-md-4 col-sm-6'>
-                            <Card className="card-service pad-card" image={search} title={"Product Discovery"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
+                            <Card className="card-service pad-card wow animate__animated animate__fadeInUp " data-wow-duration="0.5s"  image={search} title={"Product Discovery"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
                         </div>
                         <div className='col-xl-4 col-md-4 col-sm-6'>
-                            <Card className="card-service pad-card" image={setting} title={"Product Development"}  desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
+                            <Card className="card-service pad-card wow animate__animated animate__fadeInUp animate__delay-1s"  data-wow-duration="1s"   image={setting} title={"Product Development"}  desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
                         </div>
                         <div className='col-xl-4 col-md-4 col-sm-6'>
-                            <Card className="card-service" image={team} title={"Dedicated development team"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
+                            <Card className="card-service  wow animate__animated animate__fadeInUp animate__delay-2s"   data-wow-delay="1s" image={team} title={"Dedicated development team"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
                         </div>
                     </div>
                     {/* //////////cardOne//////////// */}
@@ -41,15 +41,15 @@ const CardSection = ()=>{
                          <Paragraph className="title-blue-bold" >
                              Design
                          </Paragraph>
-                         <div className='row py-4'>
+                         <div className='row py-4 m-auto'>
                              <div className='col-xl-4 col-md-4 col-sm-6'>
-                                 <Card className="card-service pad-card" image={ui} title={"UX\UI Design"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
+                                 <Card className="card-service pad-card wow animate__animated animate__fadeInUp " image={ui} title={"UX\UI Design"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
                              </div>
                              <div className='col-xl-4 col-md-4 col-sm-6'>
-                                 <Card className="card-service pad-card" image={web} title={"Web Design"}  desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
+                                 <Card className="card-service pad-card wow animate__animated animate__fadeInUp animate__delay-1s" image={web} title={"Web Design"}  desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
                              </div>
                              <div className='col-xl-4 col-md-4 col-sm-6'>
-                                 <Card className="card-service  pad-card" image={graiphic} title={"Graphic Design"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
+                                 <Card className="card-service  pad-card animate__animated animate__fadeInUp animate__delay-2s" image={graiphic} title={"Graphic Design"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
                              </div>
                          </div>                             
                          </div>
@@ -59,15 +59,15 @@ const CardSection = ()=>{
                          <Paragraph className="title-blue-bold" >
                              Development
                          </Paragraph>
-                         <div className='row py-4'>
+                         <div className='row py-4 m-auto'>
                              <div className='col-xl-4 col-md-4 col-sm-6'>
-                                 <Card className="card-service pad-card" image={mobile} title={"Mobile Development"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
+                                 <Card className="card-service pad-card wow animate__animated animate__fadeInUp " image={mobile} title={"Mobile Development"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
                              </div>
                              <div className='col-xl-4 col-md-4 col-sm-6'>
-                                 <Card className="card-service pad-card" image={webcard} title={"Web Development"}  desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
+                                 <Card className="card-service pad-card wow animate__animated animate__fadeInUp animate__fadeInUp-1s" image={webcard} title={"Web Development"}  desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
                              </div>
                              <div className='col-xl-4 col-md-4 col-sm-6'>
-                                 <Card className="card-service  pad-card" image={sass} title={"Saas Development"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
+                                 <Card className="card-service  pad-card wow animate__animated animate__fadeInUp animate__fadeInUp-2s" image={sass} title={"Saas Development"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
                              </div>
                          </div>                             
                          </div>
@@ -77,12 +77,12 @@ const CardSection = ()=>{
                          <Paragraph className="title-blue-bold" >
                              Game
                          </Paragraph>
-                         <div className='row py-4'>
+                         <div className='row py-4 m-auto'>
                              <div className='col-xl-4 col-md-4 col-sm-6'>
-                                 <Card className="card-service pad-card" image={va} title={"AR Development"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
+                                 <Card className="card-service pad-card wow animate__animated animate__fadeInUp " image={va} title={"AR Development"} desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
                              </div>
                              <div className='col-xl-4 col-md-4 col-sm-6'>
-                                 <Card className="card-service pad-card" image={vr}  title={"VR Development"}  desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
+                                 <Card className="card-service pad-card wow animate__animated animate__fadeInUp animate__fadeInUp-1s" image={vr}  title={"VR Development"}  desc={'We help with web and mobile apps, marketing websites, landing pages and two-sided platforms.'} btn={'Learn more'}/>
                              </div>                          
                          </div>                             
                          </div>

@@ -1,13 +1,16 @@
-import './Card.css'
-import arrow from '../assets/icons/arrow.svg'
+import './Card.css';
+import arrow from '../assets/icons/arrow.svg';
+import Paragraph from './Paragraph';
+import Button from './Button';
+import Media from '../UI/Media';
 const Card = (props)=>{
     return(
         <>
             <div className={`${props.className}`} >
-                <img src={props.image} className='mb-3' alt=""/>
-                <h4 className='card-title mb-3 '>{props.title}</h4>
-                <p className='card-desc pb-4'>{props.desc}</p>
-                <button className='border-0 btn-card'><img src={arrow} className='me-2 p-0' alt='' loading='lazy'/>{props.btn}</button>
+                <Media src={props.image} className='' alt="icon" type='img' />
+                <Paragraph  className='service-title  my-3'>{props.title}</Paragraph>
+                <Paragraph  className='card-desc pb-4'>{props.desc}</Paragraph>
+                <Button className='border-0 btn-card p-0'><img src={arrow} className='me-2 p-0' alt='' loading='lazy'/>{props.btn}</Button>
             </div>
           
         </>

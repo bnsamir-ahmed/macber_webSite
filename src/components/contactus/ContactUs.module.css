@@ -1,0 +1,57 @@
+.Contact_Padding{
+        padding: 150px 0 50px 0;
+}
+.Home{
+        text-decoration: none;
+        color: var(--secBlue-color);
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.25rem;
+}
+
+.Home_Work{
+        color: var(--primaryBlue-color);
+        font-size: 55px;
+        font-weight: 600;
+}
+
+.Home_Text{
+        color: var(--lightGrey2-color);
+}
+
+.visit{
+        position: absolute;
+        background-color: var(--primaryBlue-color);
+        top: -45%;
+        left: 10%;
+        padding: 20px 30px;
+        color: var(--lightBlue-color);
+}
+
+
+.policy{
+        color: var(--primaryBlue-color);
+}
+.visit_pages{
+        font-size: 35px;
+        font-weight: 700;
+     
+}
+
+.pages{
+        display: flex;
+         align-items: center;
+        justify-content: space-evenly;
+        padding: 25px;
+}
+.img_bg{
+        background-image: url('../../assets/contact-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 30rem;
+}
+.pos_relative{
+        position: relative;
+}

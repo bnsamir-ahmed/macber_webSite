@@ -5,7 +5,7 @@ const FormInput =(props)=>{
         <>
         <div className="form-input">
             <label className='mb-2 text-capitalize fw-bold'>{props.name}</label>
-            <input className='size-input ps-2 mb-2'{...inputProps} onChange={onChange}></input>
+            <input className='size-input ps-2 mb-2'{...inputProps} onChange={onChange} />
         </div>
         </>
     )

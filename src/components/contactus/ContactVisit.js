@@ -1,5 +1,3 @@
-import { ParallaxProvider,ParallaxBanner  } from 'react-scroll-parallax';
-import contact_bg from '../../assets/contact-bg.svg';
 import Paragraph from '../../UI/Paragraph';
 import classes from './ContactUs.module.css';
 import involpe from '../../assets/icons/envolpe.svg';

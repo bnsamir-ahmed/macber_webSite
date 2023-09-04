@@ -70,12 +70,12 @@ const   ContactForm= ()=>{
                 </div>
             <div className="form-input">
                  <label className="text-capitalize fw-bold">massage</label> 
-                 <input type="text" placeholder="massage"className="massage-form ps-2 my-2"/>
+                 <input type="text" placeholder="massage" className="massage-form ps-2 my-2"/>
             </div>
                <div className="d-flex hint-form">
                 <Paragraph className='m-0'>By proceeding, you are agreeing <br/> to Macber Company’s
                  <br/><Link path='/' alt="#/" className={classes.policy}>privacy policy</Link>  & communication</Paragraph>
-                 <Button className="btn-form text-capitalize">get in touch</Button>
+                 <Button className="btn-blue text-capitalize">get in touch</Button>
                </div>
         </form>
         </>

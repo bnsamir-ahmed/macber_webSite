@@ -1,5 +1,5 @@
-
 :root{
+  /* ////////////////color//////////// */
   --main-font: 'Lexend', sans-serif;
   --babyBlue-color: #69DEEF;
   --primaryBlue-color: #2C60F2;
@@ -11,11 +11,92 @@
   --lightWhite-color: #F4F2FF;
   --white-color: #fff;
   --black-color: #000;
-  --lightGrey2-color: #BFC8CA;
+  --lightGrey2-color: #6F797A;
   --lightGrey3-color:#f3f3ee87;
   --lightGrey4-color:#9aa3a5;
+  /* ////////////////color//////////// */
 
+  /* ////////////////fontSize//////////// */
+  /* 1rem = 16px */
+  --fs-25:1.5rem;
+  --fs-22:22px;
+  --fs-16:16px;
+  --fs-39: 39px;
+  /* ////////////////fontSize//////////// */
+  /* ////////////////fontWeight//////////// */
+  --fw-700:700;
+  --fw-500:500;
 }
+.bold-700{
+  font-weight: 700;
+}
+/* ////////////color///////// */
+.babyBlue{
+  color: var(--babyBlue-color);
+}
+.primaryBlue{
+color: var(--primaryBlue-color);
+}
+.secBlue{
+  color: var(--secBlue-color);
+}
+.darkGreen{
+  color: var(--darkGreen-color);
+}
+.lightGrey{
+  color: var(--lightGrey-color);
+}
+.lightBlue{
+  color: var(--lightBlue-color);
+}
+.darkBlue{
+  color: var(--darkBlue-color);
+}
+.lightWhite{
+  color: var(--lightWhite-color);
+}
+.white{
+  color: var(--white-color);
+}
+.lightGrey2{
+  color: var(--lightGrey2-color);
+}
+.black{
+  color: var(--black-color);
+}
+.lightGrey3{
+  color: var(--lightGrey3-color);
+}
+.lightGrey4{
+  color: var(--lightGrey4-color);
+}
+
+    /* ////////////////color//////////// */
+
+  /* ////////////////fontSize//////////// */
+  .fs-25{
+    font-size: var(--fs-25);
+  }
+  .fs-22{
+    font-size: var(--fs-22);
+  }
+  .fs-16{
+    font-size: var(--fs-16);
+  }
+  .fs-39{
+    font-size: var(--fs-39);
+  }
+    /* ////////////////fontSize//////////// */
+
+
+  /* ////////////////fontWeight//////////// */
+  .fw-700{
+    font-weight: var(--fw-700);
+  }
+  .fw-500{
+    font-weight: 500;
+  }
+    /* ////////////////fontWeight//////////// */
 body{
   font-family: var(--main-font);
   padding: 0;

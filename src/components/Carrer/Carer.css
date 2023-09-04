@@ -1,0 +1,16 @@
+.carer{
+    background-color: #F9F9F9;
+}
+.border-carer{
+    background-color: #FFFF;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: -2px 3px 3px -1px; 
+}
+
+@media screen and (max-width:767px) {
+    .border-carer{
+        flex-direction: column;
+    }
+    
+}
